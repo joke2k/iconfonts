@@ -5,7 +5,7 @@ Usage
 To use IconFonts in a project::
 
     >>> import iconfonts
-    >>> iconfonts.get_icon('star')
+    >>> iconfonts.get_font('font-awesome').render_icon('star')
     u'<i class="star"></i>'
 
 
@@ -37,3 +37,10 @@ Template tags::
     {% font_stylesheet 'flags' %}
     {% icon 'it' font='flags' title='FlagIcons icon' %}
 
+
+Setup `ICONFONT='font-awesome'` variable in your settings then you can omit the font.
+
+Custom fonts
+~~~~~~~~~~~~
+
+`iconfonts.django` application auto-loads all `<app>.fonts` modules from `settings.INSTALLED_APPS`.

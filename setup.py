@@ -26,7 +26,7 @@ history = open('HISTORY.rst').read().replace('.. :changelog:', '')
 setup(
     name='IconFonts',
     version=version,
-    description="""Your project description goes here""",
+    description="""This package provides a toolkit to render icon-font glyphs.""",
     long_description=readme + '\n\n' + history,
     author='joke2k',
     author_email='joke2k@gmail.com',
@@ -38,7 +38,7 @@ setup(
     include_package_data=True,
     install_requires=[
     ],
-    license="BSD",
+    license="MIT",
     zip_safe=False,
     keywords='iconfonts',
     classifiers=[
