@@ -35,6 +35,27 @@ Features
 --------
 
 * Multiple Icon font supported
-* Django integration
 * Auto registration of IconFonts
+* Django integration
 * Tests
+
+Installed Fonts
+---------------
+
+* `Font-Awesome`_ (font-awesome or fa)
+* `Ionicons`_ (ionicons or ion)
+* `Open Iconic`_ (iconic or oi)
+* `Glyphicon`_ (glyph-icons or glyph)
+* `DashIcons`_ (dash-icons or dash)
+* `Foundation Icons`_ (foundation or fo)
+* `Flag Icons`_ (flag-icons or flags)
+* `Wheather Icons`_ (weather-icons or weather)
+
+.. _Font-Awesome: http://fontawesome.io/
+.. _Ionicons: http://ionicons.com/
+.. _Open Iconic: http://useiconic.com/open/
+.. _Glyphicon: http://glyphicons.com/
+.. _DashIcons: http://melchoyce.github.io/dashicons/
+.. _Foundation Icons: http://zurb.com/playground/foundation-icon-fonts-3
+.. _Flag Icons: http://lipis.github.io/flag-icon-css/
+.. _Wheather Icons: http://erikflowers.github.io/weather-icons/

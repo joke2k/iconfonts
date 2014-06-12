@@ -12,5 +12,5 @@ for app in settings.INSTALLED_APPS:
     except ImproperlyConfigured:
         pass
 
-INSTALLED_ICONFONTS = [cls for cls in fonts.IconsFont]
+INSTALLED_ICONFONTS = [cls for cls in fonts.IconsFont.registry]
 ICONFONT = getattr(settings, 'ICONFONT', INSTALLED_ICONFONTS[0].name)
