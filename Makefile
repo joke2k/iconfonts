@@ -27,7 +27,7 @@ lint:
 	flake8 iconfonts tests
 
 test:
-	python runtests.py test
+	python runtests.py
 
 test-all:
 	tox
