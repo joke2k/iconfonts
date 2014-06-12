@@ -6,7 +6,7 @@ To use IconFonts in a project::
 
     >>> import iconfonts
     >>> iconfonts.get_font('font-awesome').render_icon('star')
-    u'<i class="star"></i>'
+    u'<i class="fa fa-star"></i>'
 
 
 Django intergration
