@@ -13,4 +13,6 @@ for app in settings.INSTALLED_APPS:
         pass
 
 INSTALLED_ICONFONTS = [cls for cls in fonts.IconsFont.registry]
-ICONFONT = getattr(settings, 'ICONFONT', INSTALLED_ICONFONTS[0].name)
+ICONFONT = getattr(settings, 'ICONFONT', None)
+if ICONFONT is None and len(INSTALLED_ICONFONTS) > 0:
+    ICONFONT = INSTALLED_ICONFONTS[0].name
