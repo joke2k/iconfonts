@@ -15,6 +15,8 @@ class IconsFont(object):
     tag_attributes = {}
     prefix = ''
 
+    registry = set()
+
     def __init__(self):
         if not self.name:
             raise NotImplementedError
