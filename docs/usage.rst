@@ -14,6 +14,7 @@ Django intergration
 
 Template tags::
 
+    {% font_stylesheet %}
     {% icon 'star' title='FontAwesome star'%}
 
     {% font_stylesheet 'iconic' %}

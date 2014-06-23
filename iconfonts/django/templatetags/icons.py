@@ -12,3 +12,4 @@ def font_stylesheet(font=ICONFONT):
 @register.simple_tag
 def icon(name, font=ICONFONT, classes='', **attributes):
     return render_icon(name, font, classes=classes, attributes=attributes)
+

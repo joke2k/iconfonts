@@ -36,7 +36,7 @@ Features
 
 * Multiple Icon font supported
 * Auto registration of IconFonts
-* Django integration
+* Third party template systems integration (django)
 * Tests
 
 Installed Fonts
