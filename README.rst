@@ -2,8 +2,8 @@
 IconFonts
 =========
 
-.. image:: https://badge.fury.io/py/iconfonts.png
-    :target: https://badge.fury.io/py/iconfonts
+.. image:: https://badge.fury.io/py/IconFonts.png
+    :target: https://badge.fury.io/py/IconFonts
 
 .. image:: https://travis-ci.org/joke2k/iconfonts.png?branch=master
     :target: https://travis-ci.org/joke2k/iconfonts
