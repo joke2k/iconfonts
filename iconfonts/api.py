@@ -2,7 +2,7 @@ from iconfonts.fonts import IconsFont
 from iconfonts.utils import string
 
 def get_font(name=None):
-    fonts = [font for font in IconsFont]
+    fonts = [font for font in IconsFont.registry]
     name = name or fonts[0].name
     for font_class in fonts:
         if name not in (font_class.name, font_class.shortcut):

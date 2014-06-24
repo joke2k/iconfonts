@@ -7,7 +7,7 @@ import sys
 import iconfonts
 
 try:
-    from setuptools import setup
+    from setuptools import setup, find_packages
 except ImportError:
     from distutils.core import setup
 
@@ -31,16 +31,11 @@ setup(
     author='joke2k',
     author_email='joke2k@gmail.com',
     url='https://github.com/joke2k/iconfonts',
-    packages=[
-        'iconfonts',
-        'iconfonts.django',
-    ],
+    packages=find_packages(exclude=["tests*"]),
     include_package_data=True,
-    install_requires=[
-    ],
     license="MIT",
     zip_safe=False,
-    keywords='iconfonts',
+    keywords='iconfonts, font, icon, templatetags, django',
     classifiers=[
         'Development Status :: 2 - Pre-Alpha',
         'Framework :: Django',
