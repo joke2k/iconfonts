@@ -12,7 +12,11 @@ To use IconFonts in a project::
 Django intergration
 -------------------
 
+Add `iconfonts.django` to `settings.INSTALLED_APPS`.
+
 Template tags::
+
+    {% load icons %}
 
     {% font_stylesheet %}
     {% icon 'star' title='FontAwesome star'%}
@@ -39,7 +43,7 @@ Template tags::
     {% icon 'it' font='flags' title='FlagIcons icon' %}
 
 
-Setup `ICONFONT='font-awesome'` variable in your settings then you can omit the font.
+Set `ICONFONT='font-awesome'` variable in your settings then you can omit the font.
 
 Custom fonts
 ~~~~~~~~~~~~
